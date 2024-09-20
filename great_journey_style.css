@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+body {
+    overflow-x: hidden;
+}
+.bg-image {
+    background-image: url(images//Horizon_View_AdobeStock_811529570.jpeg);
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+.btn-outline-dark {
+    border-radius: 6px;
+    border: rgba(15, 38, 67,) 6px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 38, 67);
+    cursor: pointer;
+    width: 200px;
+    font-size: 16px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(15, 38, 67);
+    border-radius: 8px;
+}
+a.nav-link:hover {
+    background-color: rgba(60, 142, 243, 0.1);
+}
+.btn-outline-dark:hover {
+    background-color: rgb(15, 38, 67);
+    color: rgb(255, 255, 255);
+}
+footer {
+    color: white;
+    background-color: rgb(15, 38, 67);
+}
+.mobile-footer {
+    display: none;
+}
+div.container-fluid {
+    padding: 0 0;
+}
+hr {
+    border: rgb(62, 87, 116) 1px solid;
+}
+.copyright_info {
+    color: rgba(255, 255, 255, 0.5);
+}
+.px-4:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    transition-duration: .25s;
+}
+p.d-flex {
+    margin-bottom: 0;
+    color: rgb(74, 104, 139);
+}
+.footer-row {
+    background-color: rgb(18, 42, 71);
+    border-top: 1px solid rgb(29, 54, 85);
+}
+.footer a {
+    text-decoration: underline;
+    color: rgb(255, 255, 255, .5);
+}
+.footer a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255, .5);
+}
+img.m_falcorp_footer_logo {
+    display: none;
+}
+img.px-5.ml-5 {
+    margin-top: 50px;
+}
+div.col-md-4.d-flex.flex-column.justify-content-center.px-5 {
+    display: none;
+}
+#company_mission {
+    margin-left: 120px;
+}
+.mobile_top_row {
+    display: none;
+}
+
+@media screen and (max-width: 414px) {
+    *, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border-collapse: collapse;
+    }
+    nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    h2 {
+        padding: 20px 0 0 0;
+    }
+    #company_mission {
+        margin-left: 0;
+    }
+    div.col-md-4 {
+        margin: 0;
+        padding: 0 0 0 0;
+        text-align: justify;
+    }
+    div.col-md-4.d-flex.justify-content-center.mt-5.py-3 {
+        display: flex;
+    }
+    div.col-md-4.d-flex.justify-content-left.align-middle.px-5 {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    div.container-fluid.mt-0 {
+        padding-bottom: 50px;
+    }
+    a.btn-outline-dark {
+        width: 100%;
+    }
+    ul.navbar-nav {
+        display: flex;
+        text-align: center;
+    }
+    .navbar-nav {
+        margin-top: 20px;
+        gap: 16px;
+    }
+    a.nav-link.btn-light.rounded-pill.py-2.px-3 {
+        text-decoration: none;
+    }
+    .mobile_top_row {
+        display: flex;
+    }
+    .copyright_info {
+        display: flex;
+    }
+    div.row.mt-4 {
+        padding: 0 20px;
+    }
+    footer.footer {
+        display: none;
+    }
+    footer.mobile-footer {
+        width: 100%;
+        display: grid;
+        padding: 24px 0 0 0;
+        background-color:  rgb(18, 42, 71);
+    }
+    img.mobile-footer-logo {
+        float: left;
+    }
+    div.sm-icon-mobile {
+        float: right;
+        vertical-align: middle;
+        padding-right: 24px;
+        padding-top: 4px;
+    }
+    p.copyright-text-mobile {
+        color: rgba(255, 255, 255, 0.5);
+        padding: 0 0 0 0;
+    }
+    ul li a {
+        text-decoration: underline;
+        color: #4a688B;
+    }
+    .mobile-rights-footer-info {
+        color: #4a688B;
+        border-top: #4a688B 1px solid;
+        background-color: #162e4d;
+        padding: 20px 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
